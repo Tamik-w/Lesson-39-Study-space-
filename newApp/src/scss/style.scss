@@ -1,0 +1,40 @@
+h1,h2,h3,p{margin: 0;}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper{
+    max-width: 670px;
+}
+
+.article{
+  background-color: olivedrab;
+  padding: 10px 0;
+}
+
+.lang{
+    display: flex;
+    margin-top: 5px;
+}
+.lang-btn{
+    background-color: #46b1de;
+    color: #fff;
+    border: 2px solid darkblue;
+    padding: 3px 10px;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.lang-btn:not(:last-child){
+    margin-right: 50px;
+}
+.lang-btn.active{
+    background-color: rgb(81, 103, 36);
+    border: 2px solid rgb(0, 0, 0);
+}
